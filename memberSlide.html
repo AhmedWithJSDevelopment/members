@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemberSlide</title>
+
+    <!-- font-awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link rel="stylesheet" href="Mc.css">
+    <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $('i.fass').css({
+                        "opacity": "1",
+                        "pointer-events": "auto"
+                    });
+                } else {
+                    $('i.fass').css({
+                        "opacity": "0",
+                        "pointer-events": "none"
+                    });
+                }
+            });
+            $('i.fass').click(function() {
+                $('html').animate({
+                    scrollTop: 0
+                }, 100);
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <i class="fas fass fa-chevron-up" style="  position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 45px;
+    background: #0f55bd;
+    padding: 7px 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #0D47A1;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 99999999999999;
+    transition: opacity .3s ease-in-out; 
+    scroll-behavior: smooth;"></i>
+    <div class="bod">
+        <div class="containerC">
+            <input type="radio" name="dot" id="one">
+            <input type="radio" name="dot" id="two">
+            <div class="main-cardC">
+                <div class="cardsC">
+                    <div class="cardC">
+                        <div class="contentC">
+                            <div class="imgC">
+                                <a href="https://digitect.com/team/hassan-sharbatly/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Hassan-Sharbatly-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC">
+
+                                <div class="nameC" style="color:#fff ;"> <a style="color:#fff ;" href="https://digitect.com/team/hassan-sharbatly/">Hassan Sharbatly</a></div>
+                                <div class="jobC">CHAIRMAN</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-7.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="cardC">
+                        <div class="contentC">
+                            <div class="imgC">
+                                <a href="https://digitect.com/team/yousef-sharbatly/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Youssef-Sharbatly-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC">
+                                <div class="nameC"> <a style="color:#fff ;" href="https://digitect.com/team/yousef-sharbatly/">Yousef Sharbatly </a></div>
+                                <div class="jobC">CHIEF EXECUTIVE OFFICER</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-7.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cardC">
+                        <div class="contentC">
+                            <div class="imgC">
+                                <a href="https://digitect.com/team/edgard-tabet/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Edgard-Tabet-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC">
+                                <div class="nameC"> <a style="color:#fff ;" href="https://digitect.com/team/edgard-tabet/">Edgard Tabet</a></div>
+                                <div class="jobC">REGIONAL MANAGING DIRECTOR </div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-7.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cardsC">
+                    <div class="cardC">
+                        <div class="contentC">
+                            <div class="imgC">
+                                <a href="https://digitect.com/team/fadi-dandachi/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Fadi-Dandachi-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC">
+                                <div class="nameC"> <a style="color:#fff ;" href="https://digitect.com/team/fadi-dandachi/">Fadi Dandachi </a></div>
+                                <div class="jobC">CHIEF FINANCIAL OFFICER</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-7.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cardC">
+                        <div class="contentC">
+                            <div class="imgC">
+                                <a href="https://digitect.com/team/hussein-yassein/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Hussein-Yassein-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC">
+                                <div class="nameC"> <a style="color:#fff ;" href="https://digitect.com/team/hussein-yassein/">Hussein Yassein</a></div>
+                                <div class="jobC">CHIEF TECHNOLOGY OFFICER</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-7.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cardC">
+                        <div class="contentC">
+                            <div class="imgC">
+                                <a href="https://digitect.com/team/bernard-abou-nader/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Bernard-Abounader-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC">
+                                <div class="nameC"> <a style="color:#fff ;" href="https://digitect.com/team/bernard-abou-nader/">Bernard Abou Nader</a></div>
+                                <div class="jobC">GROUP ACCOUNTS DIRECTOR</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-6.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="buttonC">
+                <label for="one" class=" active one"></label>
+                <label for="two" class="two"></label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bod2">
+        <div class="containerC2">
+            <input type="radio" name="dot" id="onec">
+            <input type="radio" name="dot" id="twoc">
+            <div class="main-cardC2">
+                <div class="cardsC2">
+                    <div class="cardC2">
+                        <div class="contentC2">
+                            <div class="imgC2">
+                                <a href="https://digitect.com/team/rasha-fallah/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Rasha-Fallah-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC2">
+                                <div class="nameC2"> <a style="color:#fff ;" href="https://digitect.com/team/rasha-fallah/">Rasha Fallah</a></div>
+                                <div class="jobC2">SENIOR ACCOUNT DIRECTOR</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-6.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="cardC2">
+                        <div class="contentC2">
+                            <div class="imgC2">
+                                <a href="https://digitect.com/team/badr-ghaznawi/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Bader-Ghaznawi-540x600.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC2">
+                                <div class="nameC2"> <a style="color:#fff ;" href="https://digitect.com/team/badr-ghaznawi/">Badr Ghaznawi</a></div>
+                                <div class="jobC2">INFLUENCER MANAGER</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/04/home-3_info-box_02.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cardC2">
+                        <div class="contentC2">
+                            <div class="imgC2">
+                                <a href="https://digitect.com/team/ibrahim-hajreeni/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Ibrahim-Hijriny-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC2">
+                                <div class="nameC2"> <a style="color:#fff ;" href="https://digitect.com/team/ibrahim-hajreeni/">Ibrahim Hajreeni</a></div>
+                                <div class="jobC2">PRO</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-4.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cardsC2">
+                    <div class="cardC2">
+                        <div class="contentC2">
+                            <div class="imgC2">
+                                <a href="https://digitect.com/team/arwa-salem/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Arwa-Salem-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC2">
+                                <div class="nameC2"> <a style="color:#fff ;" href="https://digitect.com/team/arwa-salem/">Arwa Salem</a></div>
+                                <div class="jobC2">DIRECTOR</div>
+                                <img src="https://digitect.com/wp-content/uploads/2021/01/Asset-2.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cardC2">
+                        <div class="contentC2">
+                            <div class="imgC2">
+                                <a href="https://digitect.com/team/sarah-al-makawi/">
+                                    <img src="https://digitect.com/wp-content/uploads/2022/07/Sara-Makkawi-940x1000.webp" alt=""></a>
+                            </div>
+                            <div class="detailsC2">
+                                <div class="nameC2"> <a style="color:#fff ;" href="https://digitect.com/team/sarah-al-makawi/">Sarah Al Makawi</a></div>
+                                <div class="jobC2">COMMUNITY MANAGER</div>
+                                <img src="https://digitect.com/wp-content/uploads/2020/02/team-bg-2.png" class="co" alt="">
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="buttonC2">
+                <label for="onec" class=" active onec"></label>
+                <label for="twoc" class="twoc"></label>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script>
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $('i.fass').css({
+                        "opacity": "1",
+                        "pointer-events": "auto"
+                    });
+                } else {
+                    $('i.fass').css({
+                        "opacity": "0",
+                        "pointer-events": "none"
+                    });
+                }
+            });
+            $('i.fass').click(function() {
+                $('html').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        });
+    </script> -->
+</body>
+
+</html>
